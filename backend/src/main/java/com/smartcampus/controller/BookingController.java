@@ -134,3 +134,4 @@ public class BookingController {
         return ResponseEntity.ok(bookingService.cancelBooking(id, currentUser));
     }
 }
+//update booking controller to include get unavailable resource ids endpoint
